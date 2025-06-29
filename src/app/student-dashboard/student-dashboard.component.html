@@ -1,10 +1,9 @@
-
-<div style="padding: 20px">
+<div class="dashboard-container">
   <h2>🎓 Student Management Dashboard</h2>
 
-  <input [(ngModel)]="searchText" placeholder="Search by name..." />
+  <input [(ngModel)]="searchText" placeholder="Search by name..." class="search-box" />
 
-  <table border="1" cellpadding="10" style="margin-top: 20px; width: 100%; text-align: left;">
+  <table class="student-table">
     <thead>
       <tr>
         <th>Name</th>
@@ -29,6 +28,6 @@
     </tbody>
   </table>
 
-  <h3>📦 JSON Data</h3>
-  <pre>{{ students | json }}</pre>
+  <h3>📦 Raw JSON Data</h3>
+  <pre class="json-box">{{ students | json }}</pre>
 </div>

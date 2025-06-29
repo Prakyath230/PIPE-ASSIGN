@@ -1,0 +1,58 @@
+.dashboard-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #333;
+}
+
+.search-box {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  background-color: #fdfdfd;
+}
+
+.student-table th, .student-table td {
+  border: 1px solid #e0e0e0;
+  padding: 12px 14px;
+  text-align: left;
+}
+
+.student-table thead {
+  background-color: #f2f2f2;
+}
+
+.student-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+pre.json-box {
+  margin-top: 25px;
+  padding: 20px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
